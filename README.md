@@ -34,6 +34,15 @@ I decided to opt for a physical server as that is my preference and I felt it wo
  OpenVPN was what I chose to provide a secure tunnel from wherever my laptop may be back to my server at home. The first thing to do was install OpenVPN access server software on the server itself. Luckily, the OpenVPN website provides a very easy-to-follow guide for getting it set up quickly. I did so and used the credentials it gave me upon completion to access the web GUI it provides. From there I added a profile and it gave me a configuration file to download. I sent this to my laptop, which already had OpenVPN downloaded, and was able to use the configuration to start the connection between my laptop and the server through a VPN connection.
 <br />
 <br />
+ Pi-hole definitely caught my eye with its ad-blocking abilities. I loathe the ad-infested hellscapes that are some website and wanted to provide a way around that. I already use Brave browser, but that is not as easy to use on my phone and tablet, nor does it help my family members who have probably never even heard of an ad-blocker. Installation was relatively simple, as I simply closed their repository and ran it as a bash script. I did make use of their web GUI, so I could easily connect and configure it. I kept nearly all the default settings and made sure to make note of it's IP address, as this was to be used at my home network's DNS server. So, once I got the software all set up, I had to go into my router's web GUI and set it to what Pi-hole had been assigned. After a couple reset connections, it seemed to all come working together just fine. This feature alone was well worth the time and effort.
+ <br />
+ <br />
+ Docker is a virtualization software that would allow me to easily run 'containers' (basically applications or software that comes with all the correct configurations and dependencies). I have not actually utilized this yet, but I installed it through the command line just to have it in case I find a particular container I want to experiment with, try out, or have running on my server.
+ <br />
+ <br />
+ Now if only I could have my own version of Google Drive set up soon...
+ <br />
+ <br />
 More pictures and descriptions coming soom (TM)!
 </p>
 
