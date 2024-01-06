@@ -22,7 +22,7 @@ Project consists of a repurposed laptop running an Ubuntu Server 22+ OS. I began
 <h2>Project walk-through:</h2>
 
 <p align="center">
-<h1>Initial setup</h1> <br/>
+<h3>Initial setup</h3> <br/>
 I decided to opt for a physical server as that is my preference and I felt it would be more of a challenge to set up and get running, instead of using any preconfigurations with cloud software. I had an Acer laptop lying around that my father never used, so it seemed like the perfect piece of hardware to repurpose into something useful. The first thing I did was physically integrate it into my SOHO network by simply using a category 5e ethernet cable and plugging it into my nice little tplink switch. <br/>
  It had Windows 11 installed on it, but obviously that was not going to do. I opted for an Ubuntu server since it was completely free and it would give me more experience with Linux as a whole, also it would be more lightweight. Configuration was fairly simple, but I did have some <a href="https://www.youtube.com/watch?v=2Btkx9toufg">help</a> to make sure nothing would instantly destroy itself. I made sure to give it a static IP too, so I could always easily access it from my other computers. After creating another account so that I was not always in root, it was pretty much sqaured away for me to start adding programs and experimenting. 
 <br />
